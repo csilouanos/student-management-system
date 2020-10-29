@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'rest_framework', 
     'rest_framework.authtoken',
     'student_management_system_api',
+    'apps.users',
 ]
 
 MIDDLEWARE = [
@@ -51,6 +52,9 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
+
+#References the user model's
+AUTH_USER_MODEL = 'users.User'
 
 ROOT_URLCONF = 'student_management_system_project.urls'
 
@@ -121,3 +125,6 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
+
+MEDIA_ROOT = 'media'
+MEDIA_URL = '/media/'
