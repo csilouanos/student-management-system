@@ -1,3 +1,5 @@
-# Profiles REST API
+# Student Management REST API
 
-Profiles REST API course code.
+The project has been gathered from the following video: https://www.youtube.com/watch?v=sl43oS-36Ms
+
+Original repository: https://github.com/freecodeschoolindy/student-management-system
