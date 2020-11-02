@@ -41,6 +41,9 @@ INSTALLED_APPS = [
     'rest_framework.authtoken',
     'student_management_system_api',
     'apps.users',
+    'apps.certificates',
+    'apps.utils',
+    'apps.waitlist',
 ]
 
 MIDDLEWARE = [
